@@ -1,0 +1,18 @@
+/* ===== Basic Styles ===== */
+main {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+/* ===== Top Styles ===== */
+
+/* ===== Bottom Styles ===== */
+
+/* ===== FM Footer Message ===== */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
