@@ -1,56 +1,48 @@
 /* ===== Base Styles ===== */
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 main {
-  font-family: 'Kumbh Sans', sans-serif;
-  font-size: 18px;
-}
-
-body {
-  background-color: hsl(185, 75%, 39%);
-
-}
-
-.profile-card {
-  width: 325px;
-  height: 375px;
-  background-color: #ffffff;
-  border-radius: 15px;
-  display: inline-block
-}
-
-strong {
-  color: hsl(229, 23%, 23%);
-}
-
-small {
-  color: hsl(0, 0%, 59%);
+background-color: #ffffff;
+border-radius: 15px;
+width: 325px;
+height: 375px;
 }
 
 /* ===== Top Styles ===== */
-.top-box {
-  height: 75%;
+.card-top {
+ background-image: url(./images/bg-pattern-card.svg);
+ background-repeat: no-repeat;
 }
 
-.top-box .profile-img {
-  border-radius: 50%;
-  border: 2px solid #ffffff;
+.profile-img {
+border-radius: 50%;
+border: 5px solid #ffffff;
 }
 
+/* ===== Middle Styles ===== */
+.card-mid {
+
+}
+.name {
+
+}
+.age {
+
+}
+.city {
+
+}
 /* ===== Bottom Styles ===== */
-.bottom-box {
-  height: 25%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  line-height: 22px;
-  border-top: 1px solid hsl(0, 0%, 59%);
+.card-bot {
+
 }
 
 /* ===== FM Footer Message ===== */
